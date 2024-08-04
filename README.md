@@ -1,2 +1,2 @@
 # Hotel-Website-Project
-In HTML,CSS,JavaScript
+In HTML,CSS,JavaScript.
