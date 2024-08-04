@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Homestay.com</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <script>
+    function myFunction(){
+      var logid=document.getElementById("userk").value;
+      var regx=/^([A-Z0-9]+)(@)$/;
+      var passw=document.getElementById("user1").value;
+      var regx1=/^([a-zA-Z0-9]+)(@)$/;
+      if(regx.test(logid) && logid.length<10){
+        if(regx1.test(passw) && passw.length<15){
+              alert("Submitted");
+              return true;
+        }else{
+          alert("Incorrect Password");
+          return false;
+        }
+        
+      }else{
+        alert("Incorrect Logid");
+        return false;
+      }
+    }
+  </script>
+  <body>
+    <div class="main">
+        <nav class="navbar">
+            <img src="logo.png.png" alt=" Hi" width="30" height="30" class="logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">My Trips</a></li>
+                <li><a href="#">Sign-Up</a></li>
+                <li><a href="#">Explore</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+<br><br><h1>HomeStay For Tourists</h1>
+<br><h2>Feel like your home</h2><br>
+<p>Enter Your Login-Id and Password</p><br>
+<div class="box">
+    <form action="#" onsubmit="return myFunction()">
+    <br><h2>LOG-IN</h2><br>
+    <div class="input-box">
+      <input type="text" class="user" id="userk" placeholder="LoginId" required>
+    </div><br>
+    <div class="input-box">
+      <input type="text" class="user" id="user1" placeholder="Password" required>
+    </div><br>
+    <div class="Forget">
+      <label><input type="checkbox">Show Password</label>
+    </div><br>
+    <div>
+      <button type="login" id="bt">Login</button>
+    </div><br>
+    <div class="Register">
+      <p>Don't have Account?
+        <a href="#" class="link">Register</a>
+      </p>
+    </div>
+</div>
+    </form>
+</body>
+</html>
+
