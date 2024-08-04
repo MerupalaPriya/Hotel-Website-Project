@@ -1,0 +1,459 @@
+*{ 
+ margin: 0%; 
+ padding: 0; 
+ box-sizing: border-box; 
+} 
+body{ 
+ background-image: url(https://free4kwallpapers.com/nowatermarks/originals/2015/10/08/wonderful-resort-house.jpg); 
+ background-size: cover; 
+ background-repeat: no-repeat; 
+ background-attachment: fixed; 
+} 
+.navbar{ 
+ width: 85%; 
+ margin:auto; 
+ // padding: 10px 0; 
+ display: flex; 
+ align-items: center; 
+ justify-content:space-between; 
+} 
+.logo{ 
+ width: 10%; 
+ height: 10%; 
+ cursor: pointer; 
+ filter: brightness(80%); 
+} 
+.navbar bar li{ 
+ list-style: none; 
+ display: inline-block; 
+ margin: 0 20px; 
+} 
+.navbar bar li a{ 
+ text-decoration: none; 
+ color: black; 
+ text-transform: uppercase; 
+} 
+.main{ 
+ align-items: center; 
+ padding-top: 20px; 
+ padding-left: 20px; 
+ padding-right: 10px; 
+ 
+ text-align: center; 
+ font-family: cursive; 
+ font-size: 20px; 
+ color: white; 
+ text-align: left; 
+} 
+.heading{ 
+ font-size: 80px; 
+ font-family:Georgia, 'Times New Roman', Times, serif; 
+ color:black
+} 
+.Matter{ 
+ color: black; 
+} 
+.readmore{ 
+ width:150px; 
+ height:50px; 
+ font-size: 23px; 
+ background-color:white ; 
+ border-radius: 15px; 
+} 
+.main1{ 
+ h1{text-align: center;} 
+ h1{font-size: 80px;} 
+ background-color: black; 
+} 
+.heading1{ 
+ color:white; 
+} 
+.rec{ 
+ text-align: center; 
+ font-size: 25px; 
+ color:white; 
+} 
+.row{ 
+ display:grid; 
+ column-gap: 1px; 
+ grid-template-columns: 1fr 1fr 1fr; 
+ margin: 2px; 
+ background-color: white; 
+} 
+.x{ 
+ padding: 10px; 
+ width:100%; 
+ height:55vh; 
+ background-color: black; 
+} 
+.first{ 
+ height: 65vh; 
+ text-align: center; 
+ font-size: 30px; 
+ background-color: black; 
+} 
+.ul1{ 
+ text-decoration: none; 
+ color:white; 
+} 
+.ul2{ 
+ text-decoration: none; 
+ color:black; 
+} 
+.ul3{ 
+ text-decoration: none; 
+ color:white; 
+} 
+.ul4{ 
+ text-decoration: none; 
+ color:black; 
+} 
+.ul5{ 
+ text-decoration: none; 
+ color:white; 
+} 
+.ul6{ 
+ text-decoration: none; 
+ color:black; 
+} 
+.sul1{ 
+ text-decoration: none; 
+ color:white; 
+} 
+.sul2{ 
+ text-decoration: none; 
+ color:black; 
+} 
+.sul3{ 
+ text-decoration: none; 
+ color:white; 
+} 
+.sul4{ 
+ text-decoration: none; 
+ color:black; 
+} 
+.sul5{ 
+ text-decoration: none; 
+ color:white; 
+} 
+.sul6{ 
+ text-decoration: none; 
+ color:black; 
+} 
+.second{ 
+ height: 65vh; 
+ text-align: center; 
+ font-size: 30px; 
+ background-color: silver; 
+} 
+.third{ 
+ height: 65vh; 
+ text-align: center; 
+ font-size: 30px; 
+ background-color: black; 
+} 
+.fourth{ 
+ height: 65vh; 
+ text-align: center; 
+ font-size: 30px; 
+ background-color: silver; 
+} 
+.fifth{ 
+ height: 65vh; 
+ text-align: center; 
+ font-size: 30px; 
+ background-color: black; 
+} 
+.sixth{ 
+ height: 65vh; 
+ text-align: center; 
+ font-size: 30px; 
+ background-color: silver; 
+} 
+.main3{ 
+ h2{text-align: center;} 
+ h2{font-size: 80px;} 
+ background-color: black; 
+} 
+.services{ 
+ display:grid; 
+ column-gap: 1px; 
+ grid-template-columns: 1fr 1fr 1fr; 
+ margin: 2px; 
+} 
+.y{ 
+ padding: 10px; 
+ width:100%; 
+ height:55vh; 
+ background-color: black; 
+} 
+.head3{ 
+ color:white; 
+} 
+.sfirst{ 
+ height: 65vh; 
+ text-align: center; 
+ font-size: 30px; 
+ background-color: black; 
+} 
+.ssecond{ 
+ height: 65vh; 
+ text-align: center; 
+ font-size: 30px; 
+ background-color: silver; 
+} 
+.sthird{ 
+ height: 65vh; 
+ text-align: center; 
+ font-size: 30px; 
+ background-color: black; 
+} 
+.sfourth{ 
+ height: 65vh; 
+ text-align: center; 
+ font-size: 30px; 
+ background-color: silver; 
+} 
+.sfifth{ 
+ height: 65vh; 
+ text-align: center; 
+ font-size: 30px; 
+ background-color: black; 
+} 
+.ssixth{ 
+ height: 65vh; 
+ text-align: center; 
+ font-size: 30px; 
+ background-color: silver; 
+} 
+.line{ 
+ width:100%; 
+} 
+.Customer{ 
+ text-align: center; 
+} 
+.pii{ 
+ border: 4px solid black; 
+ border-radius: 30px; 
+ width:500px; 
+ height:360px; 
+ text-align: center; 
+ margin-left: 35%; 
+ margin-top: 1%; 
+ font-family:'Times New Roman', Times, serif; 
+ font-size: 100%; 
+ background:rgb(0, 0, 0); 
+ background:rgba(0,0,0,0.5); 
+} 
+.lastpage{ 
+ background-color: rgb(0, 0, 0); 
+ background-size: 1000px 100px; 
+} 
+.Reservations{ 
+ float:left; 
+ color:white; 
+} 
+.customer{ 
+ margin:auto; 
+ color:white; 
+} 
+.More{ 
+ float:right; 
+ color:white; 
+} 
+.Matter{ 
+ float:left; 
+} 
+.info{ 
+ text-size:70%
+} 
+.from{ 
+ text-size:90%; 
+} 
+.location{ 
+ text-size:90%; 
+} 
+.to{ 
+ text-size:90%; 
+} 
+.login{ 
+ height: 400%; 
+ width: 20%; 
+ border: 2px solid black; 
+ border-radius: 10px; 
+} 
+.footer{ 
+ background-color: black; 
+ color:white; 
+ width:100%; 
+ height:80%; 
+ text-align: center; 
+ text-decoration: none; 
+} 
+.logo1{ 
+ width:140px; 
+} 
+.thanks{ 
+ text-size:500%; 
+ color:yellow; 
+} 
+.hotelnamecolor{ 
+ color:yellow; 
+} 
+.main4 { 
+ background-color: black; 
+ text-align: center; 
+ padding: 50px 0; 
+} 
+.head4 { 
+ color: white; 
+ font-size: 40px; 
+} 
+.subscription-options { 
+ display: flex; 
+ justify-content: space-around; 
+ margin-top: 30px; 
+} 
+.monthly, 
+.yearly { 
+ width: 30%; 
+ background-color: #f0f0f0; 
+ padding: 20px; 
+ border-radius: 10px; 
+} 
+.monthly h3, 
+.yearly h3 { 
+ color: black; 
+ font-size: 24px; 
+} 
+.monthly p, 
+.yearly p { 
+ font-size: 18px; 
+} 
+.subscribe-button { 
+ background-color: #4CAF50; 
+ color: white; 
+ padding: 12px 20px; 
+ border: none; 
+ border-radius: 5px; 
+ cursor: pointer; 
+ font-size: 16px; 
+ margin-top: 20px; 
+ transition: background-color 0.3s; 
+} 
+.subscribe-button:hover { 
+ background-color: #45a049; 
+} 
+.main5, 
+.main6 { 
+ background-color: black; 
+ text-align: center; 
+ padding: 50px 0; 
+ h2{text-align: center;} 
+ h2{font-size: 80px;} 
+ background-color: black; 
+} 
+.head5, 
+.head6 { 
+ font-size: 40px; 
+ margin-bottom: 30px; 
+ color:white; 
+ background-color: black; 
+} 
+.main5, 
+.main6 { 
+ background-color: white; 
+ text-align: center; 
+ padding: 50px 0; 
+} 
+.head5, 
+.head6 { 
+ font-size: 40px; 
+ margin-bottom: 30px; 
+} 
+.special-offers, 
+.discounts { 
+ display: flex; 
+ justify-content: space-around; 
+ margin-top: 30px; 
+} 
+.offer, 
+.discount { 
+ width: 30%; 
+ background-color: black; 
+ padding: 20px; 
+ border-radius: 20px; 
+ box-shadow: 0px 0px 10px rgba(0, 0, 0, 100); 
+ background:rgb(255, 243, 12); 
+ background:rgba(255, 243, 12, 0.5); 
+} 
+.offer h3, 
+.discount h3 { 
+ color: darkblue; 
+ font-size: 24px; 
+} 
+.offer p, 
+.discount p { 
+ font-size: 18px; 
+ color:black; 
+} 
+.dli1{ 
+ text-decoration: none; 
+} 
+.dli2{ 
+ text-decoration: none; 
+} 
+.dli3{ 
+ text-decoration: none; 
+} 
+.oli1{ 
+ text-decoration: none; 
+} 
+.oli2{ 
+ text-decoration: none; 
+} 
+.oli3{ 
+ text-decoration: none; 
+} 
+.main5{ 
+ background-image:url(https://free4kwallpapers.com/nowatermarks/originals/2015/10/08/wonderful-resort-house.jpg) ; 
+ //background:rgba(255,255,255,0.5); 
+} 
+.main6{ 
+ background-image:url(https://free4kwallpapers.com/nowatermarks/originals/2015/10/08/wonderful-resort-house.jpg) ; 
+ //background:rgb(255, 255, 255); 
+ // background:rgba(255,255,255,0.5); 
+} 
+.foot{ 
+ text-decoration: none; 
+ color:palegoldenrod; 
+} 
+.comments-section { 
+ background-color: black; 
+ padding: 20px; 
+ margin-top: 50px; 
+} 
+.comments-section h2 { 
+ margin-bottom: 20px; 
+} 
+.comments { 
+ margin-bottom: 20px; 
+} 
+.comment { 
+ background-color:green; 
+ padding: 10px; 
+ margin-bottom: 10px; 
+} 
+#comment-input { 
+ width: 100%; 
+ padding: 10px; 
+ margin-bottom: 10px; 
+ 
+} 
+button { 
+ padding: 10px 20px; 
+ background-color: grey; 
+ color: #fff; 
+ border: none; 
+ cursor: pointer; 
+}
