@@ -1,0 +1,81 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    width: 10%;
+    height: 10%;
+    cursor: pointer;
+    filter: brightness(80%);
+}
+.main{
+    align-items: center;
+    background-image: url(https://img.freepik.com/free-photo/abstract-blur-luxury-hotel-lobby-background_1339-98452.jpg?size=626&ext=jpg);
+    background-size: 1700px 800px;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-bottom: 280px;
+    text-align: center; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+.navbar{
+    width: 85%;
+    margin:auto;
+    padding: 10px 0;
+    align-items: center;
+    justify-content:space-between;
+    display: flex;
+}   
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px; 
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+.box{
+    border: 4px solid black;
+    border-radius: 30px;
+    width:300px; 
+    height:360px; 
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 1%;
+    font-family:'Times New Roman', Times, serif;
+}
+.user{
+    border: 2px solid black;
+    border-radius: 100px;
+    height: 40px;
+    width: 80%;
+    text-align: center;
+}
+.link a{
+    text-align: center;
+}
+.login{
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.bt{
+    width: 60px;
+    height: 30px;
+}
