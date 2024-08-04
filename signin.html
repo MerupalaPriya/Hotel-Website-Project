@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Homestay.com</title>
+    <link rel="stylesheet" href="style1.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  </head>
+  <script>
+    function myvalid(){
+      var n = document.getElementById("user6").value; 
+      var mail = document.getElementById("user2").value; 
+      var ph = document.getElementById("user3").value;  
+      var pass = document.getElementById("user4").value; 
+      var cpass = document.getElementById("user5").value; 
+  
+  if((/^[a-zA-Z]+$/).test(n)){ 
+      if((/^([a-zA-Z0-9-]+)@([a-zA-Z0-9]+)([\.a-z]{2,8})$/).test(mail) && mail.length<50){ 
+        if((/^[6-9][0-9]{9}$/).test(ph)){  
+            if((/[A-Z]/).test(pass) && (/[a-z]/).test(pass) && (/[!@#$%^&*()_+{}\[\]:;<>,.?~\\/-]/).test(pass) &&(pass.match(/[^A-Za-z0-9]/g) || []).length >= 2 && pass.length>9){ 
+              if(pass.search(cpass)==0){ 
+                alert("submitted"); 
+                return true; 
+  } 
+  else{ 
+  alert("invalid confirmpassword"); 
+  return false; 
+  } 
+  } 
+  else{ 
+  alert("invalid password"); 
+ return false; 
+  } 
+  } 
+  else{ 
+  alert("invalid phonenumber"); 
+  return false; 
+  } 
+  } 
+  else{ 
+  alert("invalid emailaddress"); 
+ return false; 
+  } 
+  } 
+  else{ 
+  alert("invalid name"); 
+  return false; 
+  } 
+  } 
+</script>
+  <body>
+    <div class="main">
+        <nav class="navbar">
+            <img src="logo.png.png" alt=" Hi" width="30" height="30" class="logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">My Trips</a></li>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Explore</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+<br><h1>HomeStay For Tourists</h1>
+<h2>Feel like your home</h2><br>
+<div class="box" onsubmit="return myvalid()">
+    <form action="">
+    <br><h2>Sign-Up</h2><br>
+    <div class="input">
+      <input type="text" class="user" id="user6" placeholder="First and Last name" required>
+    </div><br>
+    <div class="input">
+        <input type="text" class="user" id="user2" placeholder="E-Mail" required>
+      </div><br>
+    <div class="input">
+        <input type="text" class="user" id="user3" placeholder="Contact No" required>
+      </div><br>
+    <div class="input">
+        <input type="text" class="user" id="user4" placeholder="Create password" required>
+      </div><br>
+    <div class="input">
+        <input type="text" class="user" id="user5" placeholder="Confirm password" required>
+      </div><br>
+    <div class="terms">
+        <label><input type="checkbox">Agree to <a href="#" class="con">Terms and Conditions</a></label>
+    </div><br>
+    <div>
+      <button type="login" class="bt">Continue</button>
+    </div><br>
+</div>
+    </form>
+</body>
+</html>
+
